@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<!-- Created by Koleton Murray -->
+<!-- Last Edit 12/16/21 -->
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Koleton Murray - Tableau Dashboard</title>
+        <link href="../styles/bootstyles.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <!--Header-->
+        <!--Navigation-->
+        <div class="common header">
+            <div class="navbar">
+                <br>
+                <a class="navbuttons" href="../index.html" title="Home">Home</a>
+                <a class="navbuttons" href="resume.html" title="Resume">Resume</a>
+                <a class="navbuttons" href="#" title="Tableau">Tableau</a> <br>
+            </div> <br>
+            <h1>My Tableau Dashboard</h1>
+        </div>
+       
+        <!--Body-->
+         <div class="common mainbody">
+            <!--First Tableau Graphic (Total Profit by State)-->
+            <div class='tableauPlaceholder' id='viz1639681541099' style='position: relative'>
+                <object class='tableauViz'  style='display:none;'>
+                    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+                    <param name='embed_code_version' value='3' /> 
+                    <param name='site_root' value='' />
+                    <param name='name' value='TotalProfitbyState_16396814703980&#47;TotalProfitbyState' />
+                    <param name='tabs' value='no' />
+                    <param name='toolbar' value='yes' />
+                    <param name='animate_transition' value='yes' />
+                    <param name='display_static_image' value='yes' />
+                    <param name='display_spinner' value='yes' />
+                    <param name='display_overlay' value='yes' />
+                    <param name='display_count' value='yes' />
+                    <param name='language' value='en-US' />
+                </object>
+            </div>                
+            <script type='text/javascript'> 
+                var divElement = document.getElementById('viz1639681541099'); 
+                var vizElement = divElement.getElementsByTagName('object')[0]; 
+                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px'; 
+                var scriptElement = document.createElement('script');                    
+                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+            </script>
+            <br><p>The map above shows each of the 50 states and their total profitability. The profit range is quite large. California, New York, and Washington have the highest total profits. Texas, Ohio, and Pennsylvana have the lowest total profits. Only 10 states have a negative profit which is good. However it's not ideal. Only 9 states have a total profit of more than $10,000. This map helps us see where the overall profitability is nation-wide. </p><br>
+            <!--Second Tableau Graphic (California Monthly Profitability)-->
+            <div class='tableauPlaceholder' id='viz1639682060692' style='position: relative'>
+                <object class='tableauViz'  style='display:none;'>
+                    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+                    <param name='embed_code_version' value='3' /> <param name='site_root' value='' />
+                    <param name='name' value='CaliforniaMonthlyProfit_16396820527570&#47;CaliforniaMonthlyProfit' />
+                    <param name='tabs' value='no' />
+                    <param name='toolbar' value='yes' />
+                    <param name='animate_transition' value='yes' />
+                    <param name='display_static_image' value='yes' />
+                    <param name='display_spinner' value='yes' />
+                    <param name='display_overlay' value='yes' />
+                    <param name='display_count' value='yes' />
+                    <param name='language' value='en-US' />
+                    <param name='filter' value='publish=yes' />
+                </object>
+            </div>                
+            <script type='text/javascript'>                    
+                var divElement = document.getElementById('viz1639682060692');                    
+                var vizElement = divElement.getElementsByTagName('object')[0];                    
+                    vizElement.style.width='100%';
+                    vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    
+                var scriptElement = document.createElement('script');                    
+                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+            </script>
+            <br><p>The graph above depicts California's monthly profits from the years 2013 & 2014. This data depicts sharp peaks and steep drops in profitability from month to month. Profitabiltity is always positive for California during this two-year period. This data further shows that about every 2 to 3 months there's a peak trough cycle.</p><br>
+            <!--Third Tableau Graphic (California Profitability by Sub-Category)-->
+            <div class='tableauPlaceholder' id='viz1639682224916' style='position: relative'>
+                <object class='tableauViz'  style='display:none;'>
+                    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+                    <param name='embed_code_version' value='3' /> 
+                    <param name='site_root' value='' />
+                    <param name='name' value='CaliforniaProfitableSubCat&#47;CaliforniaProfitableSub-Categories' />
+                    <param name='tabs' value='no' />
+                    <param name='toolbar' value='yes' />
+                    <param name='animate_transition' value='yes' />
+                    <param name='display_static_image' value='yes' />
+                    <param name='display_spinner' value='yes' />
+                    <param name='display_overlay' value='yes' />
+                    <param name='display_count' value='yes' />
+                    <param name='language' value='en-US' />
+                    <param name='filter' value='publish=yes' />
+                </object>
+            </div>                
+            <script type='text/javascript'>                    
+                var divElement = document.getElementById('viz1639682224916');                    
+                var vizElement = divElement.getElementsByTagName('object')[0];                    
+                    vizElement.style.width='100%';
+                    vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    
+                var scriptElement = document.createElement('script');                    
+                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+            </script>
+            <br><p>The chart above shows total profits as they correlate to each product category. We see that California is profitable in every product category except Tables. This information shows the profit strenths and weaknesses within the state. Decisions on how to address loss due to tables can be further addressed.</p><br>
+            <!--Fourth Tableau Graphic (Total Profit by State)-->
+            <div class='tableauPlaceholder' id='viz1639683622868' style='position: relative'>
+                <object class='tableauViz'  style='display:none;'>
+                    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+                    <param name='embed_code_version' value='3' /> 
+                    <param name='site_root' value='' />
+                    <param name='name' value='CaliforniaProfitableSubCat&#47;CaliforniaAccessoriesForecast' />
+                    <param name='tabs' value='no' />
+                    <param name='toolbar' value='yes' />
+                    <param name='animate_transition' value='yes' />
+                    <param name='display_static_image' value='yes' />
+                    <param name='display_spinner' value='yes' />
+                    <param name='display_overlay' value='yes' />
+                    <param name='display_count' value='yes' />
+                    <param name='language' value='en-US' />
+                </object>
+            </div>                
+            <script type='text/javascript'>                    
+                var divElement = document.getElementById('viz1639683622868');                    
+                var vizElement = divElement.getElementsByTagName('object')[0];                    
+                    vizElement.style.width='100%';
+                    vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    
+                var scriptElement = document.createElement('script');                    
+                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+            </script> 
+            <br><p>The gaph above shows quantity of accessory sales in California for each month. It also depicts a forecast of quantity of acessory sales for the next year. This data shows projected quantity of sales which can be used in production to avoid surpluss and shortage issues. With foresight into the coming year, incentives, promotions, and other tactics can be used to increase sales in lower months. This forecast can aid managment decisions to increase profitability and prevent predictable supply issues. </p><br><br> <br> <br> <br> &nbsp;
+        </div> 
+        <!--Footer-->
+        <div class="common footer"> 
+            <!--Link to the Tableau website-->
+            <a class="footlinks" href="https://www.tableau.com" title="Tableau Website" target="_blank">Tableau Website |</a>
+            <a class="footlinks" href="https://www.linkedin.com/in/koleton-murray?trk=profile-badge" title="Link to personal LinkedIn profile" target="_blank">LinkedIn Profile |</a>
+            <a class="footlinks" href="https://www.facebook.com/koleton.murray" title="Link to personal Facebook profile" target="_blank">Facebook Profile</a> <br> <br>
+            Copyright &copy; Koleton Murray 2021 <br>
+        </div>
+    </body>
+</html>
